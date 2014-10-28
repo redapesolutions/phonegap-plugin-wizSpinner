@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="jp.wizcorp.phonegap.plugin.wizSpinnerPlugin"
-    version="1.1.0">
+    version="2.0.0">
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
 
     <name>Wizard Spinner Plugin</name>
-    
     <description>This plugin allows you to create native spinners & loaders above your HTML application layer.</description>
-    
     <author>Ally Ogilvie - aogilvie@wizcorp.jp</author>
-    
     <keywords>spinner,loader</keywords>
-	
-	<engines>
-	    <engine name="cordova" version=">=2.6.0" />
-	</engines>
-
     <license>MIT</license>
 
     <asset src="assets/spinner.gif" target="phonegap/plugin/wizSpinner/spinner.gif" />
@@ -74,7 +70,4 @@
         <framework src="ImageIO.framework" />
 
     </platform>
-    
-    <license>MIT</license>
-
 </plugin>
