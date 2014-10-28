@@ -18,11 +18,11 @@
 
     <license>MIT</license>
 
-    <js-module src="www/phonegap/plugin/wizSpinner/wizSpinner.js" name="wizSpinnerPlugin" target="phonegap/plugin/wizSpinner/wizSpinner.js">
-        <clobbers target="window.wizSpinner" />
-    </js-module>
+    <asset src="assets/spinner.gif" target="phonegap/plugin/wizSpinner/spinner.gif" />
 
-    <asset src="www/phonegap/plugin/wizSpinner/spinner.gif" target="phonegap/plugin/wizSpinner/spinner.gif" />
+    <js-module src="wizSpinner.js" name="wizSpinnerPlugin">
+        <clobbers target="wizSpinner" />
+    </js-module>
 
     <!-- android -->
     <platform name="android">
