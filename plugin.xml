@@ -14,7 +14,7 @@
     <keywords>spinner,loader</keywords>
     <license>MIT</license>
 
-    <asset src="assets/spinner.gif" target="phonegap/plugin/wizSpinner/spinner.gif" />
+    <asset src="assets/spinner.gif" target="plugins/wizSpinner/spinner.gif" />
 
     <js-module src="wizSpinner.js" name="wizSpinnerPlugin">
         <clobbers target="wizSpinner" />
